@@ -18,9 +18,9 @@ shinyUI(fluidPage(
       helpText(" This application helps you to calculate the windchill. For that purpose, it´s use the Siple's equation"),
       
       br(),           
-      numericInput("AirTemperature",label = h4("What is the air temperature (ºC)"),min = -20, max = 45,value= 8),
+      numericInput("AirTemperature",label = h4("Air temperature (ºC)"),min = -20, max = 45,value= 8),
       br(),
-      numericInput("WindVelocity",label = h4("What is the wind velocity (m/s)"),min = 0, max = 40, value=20),
+      numericInput("WindVelocity",label = h4("Wind velocity (m/s)"),min = 0, max = 40, value=20),
       br(),
       
       br(),   

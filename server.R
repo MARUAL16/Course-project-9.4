@@ -22,7 +22,7 @@ shinyServer(function(input, output) {
   # Display your current values
   output$current_AirTemperature <- renderText({
     input$FindWindchill
-    paste("Current Air temperature in ºC is:", isolate(input$AirTemperature))
+    paste("Current Air temperature in ºC:", isolate(input$AirTemperature))
   })
   
   output$current_WindVelocity <- renderText({
