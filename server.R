@@ -31,10 +31,10 @@ shinyServer(function(input, output) {
   })
   
   
-  # Display your BMI
+  # Display the windchill
   
   output$Windchill_result <- renderText({
-    paste("Your current BMI is:", values$Windchill)
+    paste("The windchill is:", values$Windchill)
   })
   
 })
